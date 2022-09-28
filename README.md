@@ -45,3 +45,9 @@ The `pagination.js` is located at the bottom of the page where the page consists
 `npm i react-js-pagination`
 ## Front-End 
 From the above steps we know that the Bootstrap is already installed so importing the Bootstrap & by using various styling `css` the the page is get represented. 
+## Loading 
+The main purpoe of the `Loading.js` is used to showcase the `gif` when the data get fetched from the `github api`.
+## Prompt
+The prompt is provided to search a particular user github profile by using he/she's `username`.
+
+
