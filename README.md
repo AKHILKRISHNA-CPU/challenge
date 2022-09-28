@@ -49,7 +49,7 @@ From the above steps we know that the Bootstrap is already installed so importin
 The main purpoe of the `Loading.js` is used to showcase the `gif` when the data get fetched from the `github api`.
 ## Prompt
 The prompt is provided to search a particular user github profile by using he/she's `username`.
-if the `username` entered by the user is not valid the prompt get repeated until the user enters the correct `UserId` of his GitHub Profile.
+If the `username` entered by the user is not valid the prompt get repeated until the user enters the correct `UserId` of his GitHub Profile.
 
 ## Search Other User 
 If the User wanted to search another user at the top rightside `SearchOther User` which is used to redirect to the prompt or the first page where the user can able to search for another User.
