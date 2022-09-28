@@ -1,4 +1,5 @@
-# Getting Started with Create React App
+
+# Fylz Internship Challenge
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -14,57 +15,39 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+## Installing NPM packages 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ - [npx create-react-app *app-name*](https://create-react-app.dev/)
+ - [cd *app-name*](https://create-react-app.dev/)
+ - [npm start](https://create-react-app.dev/)
 
-### `npm run build`
+## Installing Aditional Dependecies
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Font-awesome -- For Icons
+npm i --save @fortawesome/fontawesome-svg-core
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Bootstrap -- For Styling the Page
+npm install react-bootstrap bootstrap
+- Axios -- For Fetching the Api 
+npm install axios
+- React-Router-Dom -- For Switching the webpages 
+npm install react-router-dom
+- Material-UI -- Forcomponent Libraries
+npm i @material-ui/core
+## Create different types of Components
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+where `user.js` consists of users data which is displayed on the frontend.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The time working with the API to retrive data the  `Loading.js` takes place .
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The repositories consists the data being saved by the user in a particular github where it can be retrived by calling it User name (githubAPI) `repository.js` displayed on the frontend.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+https://api.github.com/users/
 
-## Learn More
+The `pagination.js` is located at the bottom of the page where the page consists of 10 repositories per page.Through pagination the user can able to acess the second page which consists of another 10 repositories.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+`npm i react-js-pagination`
+## Front-End 
+From the above steps we know that the Bootstrap is already installed so importing the Bootstrap & by using various styling `css` the the page is get represented. 
